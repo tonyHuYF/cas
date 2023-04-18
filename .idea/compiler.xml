@@ -9,7 +9,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cas-overlay" />
+        <module name="cas-client-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cas-sample-java-webapp" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
