@@ -1,0 +1,4 @@
+com\tony\cas\client\ClientApplication.class
+com\tony\cas\client\config\SpringContext.class
+com\tony\cas\client\config\SpringMVC.class
+com\tony\cas\client\controller\IndexController.class
