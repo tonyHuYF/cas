@@ -20,7 +20,7 @@ public class UserDao {
      */
     public Map<String, Object> findUserByNameOrPhone(String userCredential) {
         try {
-            return jdbcTemplate.queryForMap("SELECT user_info.* FROM user_info WHERE user_info.username=?", userCredential);
+            return jdbcTemplate.queryForMap("SELECT `system_user`.*,`system_account`.`password` FROM `system_account` LEFT JOIN `system_user` ON `system_account`.user_id = `system_user`.user_id WHERE `system_account`.account_name=? and `system_user`.status = 0", userCredential);
         } catch (EmptyResultDataAccessException e) {
             return null;
         }
