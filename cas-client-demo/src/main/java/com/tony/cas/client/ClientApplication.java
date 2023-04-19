@@ -1,11 +1,11 @@
 package com.tony.cas.client;
 
-import net.unicon.cas.client.configuration.EnableCasClient;
+import com.tony.cas.client.configuration.EnableCasClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableCasClient
+@EnableCasClient //开启cas
 public class ClientApplication {
     public static void main(String[] args) {
         SpringApplication.run(ClientApplication.class, args);

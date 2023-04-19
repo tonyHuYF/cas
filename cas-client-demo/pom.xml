@@ -23,54 +23,6 @@
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-web</artifactId>-->
-<!--            <version>${springboot.version}</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash;jsp页面使用jstl标签&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>javax.servlet</groupId>-->
-<!--            <artifactId>jstl</artifactId>-->
-<!--            <version>1.2</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash;用于编译jsp&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.tomcat.embed</groupId>-->
-<!--            <artifactId>tomcat-embed-jasper</artifactId>-->
-<!--            <scope>provided</scope>-->
-<!--            <version>9.0.46</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash;cas的客户端 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>net.unicon.cas</groupId>-->
-<!--            <artifactId>cas-client-autoconfig-support</artifactId>-->
-<!--            <version>1.4.0-GA</version>-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>org.jasig.cas.client</groupId>-->
-<!--                    <artifactId>cas-client-core</artifactId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.jasig.cas.client</groupId>-->
-<!--            <artifactId>cas-client-core</artifactId>-->
-<!--            <version>3.5.1</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash; lombok &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.projectlombok</groupId>-->
-<!--            <artifactId>lombok</artifactId>-->
-<!--            <version>1.18.20</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash;cas客户端&ndash;&gt;-->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -89,20 +41,9 @@
 
         <!--cas的客户端 -->
         <dependency>
-            <groupId>net.unicon.cas</groupId>
-            <artifactId>cas-client-autoconfig-support</artifactId>
-            <version>1.4.0-GA</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.jasig.cas.client</groupId>
-                    <artifactId>cas-client-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.jasig.cas.client</groupId>
-            <artifactId>cas-client-core</artifactId>
-            <version>3.5.1</version>
+            <groupId>com.tony</groupId>
+            <artifactId>cas-client-starter</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
 

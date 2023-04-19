@@ -17,6 +17,7 @@
     <modules>
         <module>cas-overlay-template-5.3</module>
         <module>cas-client-demo</module>
+        <module>cas-client-starter</module>
 
     </modules>
 </project>
